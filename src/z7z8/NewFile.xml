@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request> 
+  <action>VoiceCode</action>  
+  <number>15121002698</number>  
+  <callSid>1705161115531590000600020003b811</callSid>  
+  <state>1</state>  
+  <callstate>666</callstate>  
+  <duration>30</duration> 
+</Request>

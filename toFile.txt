@@ -1,0 +1,8 @@
+va.io.RandomAccessFile;
+import java.nio.ByteBuffer;
+import java.nio.channels.FileChannel;
+
+public class FileChannelTest {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated meth
