@@ -1,14 +1,9 @@
 package z7z8.z7z8Test;
 
-import java.io.UnsupportedEncodingException;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
-
 import org.apache.commons.codec.DecoderException;
+
+import java.io.UnsupportedEncodingException;
+import java.util.*;
 
 
 public class Test3 {
