@@ -54,6 +54,4 @@ public class Consumer implements Runnable {
 	public void stop(){
 		isRunning=false;
 	}
-	
-
 }
