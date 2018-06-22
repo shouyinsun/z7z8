@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class SoftRefCache<K, V> implements Cache<K, V> {
 
-	// 缓存，用软引用记录
+	// 缓存 用软引用记录
 	private ConcurrentHashMap<K, ExtraInfoReference<V>> cache = new ConcurrentHashMap<K, ExtraInfoReference<V>>();
 	private ReferenceQueue<V> refQueue = new ReferenceQueue<V>();
 

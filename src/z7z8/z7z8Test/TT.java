@@ -1,17 +1,16 @@
 package z7z8.z7z8Test;
 
-import java.sql.Timestamp;
+import java.util.Arrays;
 
-public class TT {
+public class TT<K, V> {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Timestamp t1=new Timestamp(1513051932000L);
-		System.out.println(t1);
-		Timestamp t2=(Timestamp) t1.clone();
-		System.out.println(t2.getTime());
-		System.out.println(t2);
-		
+		int a[]={12,343,45,546,763,53,5};
+		int b[] =new int[10];
+		System.arraycopy(a, 1, b, 2, 5);
+		System.out.println(Arrays.toString(b));
 	}
 
 }
