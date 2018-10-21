@@ -25,12 +25,12 @@ public class ScatterAndGather {
 		inChannel.read(bufferArray);
 		
 		for(ByteBuffer bf:bufferArray){
+			System.out.println("------------------------");
 			bf.flip();//读取数据,需要通过flip()方法将Buffer从写模式切换到读模式  flip将position置为0,limit为原来的position值
 			while (bf.hasRemaining()) {
 				System.out.print((char) bf.get());//read 1 byte at a time
 			}
 		}
-		
 		aFile.close();
 		
 	}
