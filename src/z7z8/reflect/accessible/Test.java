@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
  * 
  * @author cash
  * @date 2017年5月24日 上午10:20:44
- * @decription 管是public，default，protect还是private方法，通过反射都可以自由调用
+ * @decription 不管是public，default，protect还是private方法，通过反射都可以自由调用
  */
 public class Test {
 

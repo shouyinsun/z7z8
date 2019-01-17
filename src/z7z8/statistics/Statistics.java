@@ -1,4 +1,4 @@
-package z7z8.statistics1;
+package z7z8.statistics;
 
 /*****
  * 
@@ -6,7 +6,7 @@ package z7z8.statistics1;
  * @date 2018年6月5日 下午4:38:57
  * @decription 统计一堆int 的 二进制中的1个数
  */
-public class Statistics1 {
+public class Statistics {
 
 	// 空间换时间,统计保存了0~255的1的个数
 	static int[] bits_in_char = { 0, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 3, 2, 3, 3,
