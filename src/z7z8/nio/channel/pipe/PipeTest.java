@@ -9,7 +9,7 @@ import java.nio.channels.Pipe;
  * @author cash
  * @date 2017年9月19日 下午2:09:20
  * @decription
- *  管道是2个线程之间的单向数据连接。Pipe有一个source通道和一个sink通道。数据会被写到sink通道，从source通道读取
+ *  管道是2个线程之间的单向数据连接。Pipe有一个source通道和一个sink通道。数据会被写到sink通道,从source通道读取
  */
 public class PipeTest {
 

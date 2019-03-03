@@ -68,7 +68,7 @@ public class FieldTest {
 
     }
 
-    // 私有的变量，需要设置为可访问
+    // 私有的变量,需要设置为可访问
     private static void setAccessible(Field field) {
         if (!field.isAccessible()) {
             field.setAccessible(true);
@@ -80,7 +80,7 @@ public class FieldTest {
         if (genericType instanceof ParameterizedType) {
             ParameterizedType parameterizedType = (ParameterizedType) genericType;
             Type actualType = parameterizedType.getActualTypeArguments()[0];
-            if (actualType instanceof TypeVariable) {// 泛型类型，比如T
+            if (actualType instanceof TypeVariable) {// 泛型类型,比如T
                 TypeVariable typeVariable = (TypeVariable) actualType;
                 System.out.println("TypeVariable类型: " + typeVariable);
 

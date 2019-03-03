@@ -16,7 +16,7 @@ public class TestMap {
 	         for (int i=5; i>0; i--){
 	            key = new Integer(i).toString() + ".0";
 	            map.put(key, key.toString());
-	            //Map中的键是不重复的，如果插入两个键值一样的记录，
+	            //Map中的键是不重复的,如果插入两个键值一样的记录,
 	            //那么后插入的记录会覆盖先插入的记录
 	            map.put(key, key.toString() + "0");         }
 	      }
@@ -26,7 +26,7 @@ public class TestMap {
 	      if (map != null){
 	         Object key = null;
 	         Object value = null;
-	         //使用迭代器遍历Map的键，根据键取值
+	         //使用迭代器遍历Map的键,根据键取值
 	         Iterator it = map.keySet().iterator();
 	         while (it.hasNext()){
 	            key = it.next();

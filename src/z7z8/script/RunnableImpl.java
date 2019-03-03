@@ -9,7 +9,7 @@ import javax.script.ScriptEngineManager;
  * @author xuc
  * @time 2017年2月27日 下午8:33:56
  * @description
- * 通过脚本函数或者方法可以很方便的实现java接口，而不是在Java中调用
+ * 通过脚本函数或者方法可以很方便的实现java接口,而不是在Java中调用
  * 通过脚本实现 java.lang.Runnable接口
  */
 public class RunnableImpl {

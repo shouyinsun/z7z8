@@ -4,8 +4,8 @@ jdk的序列化不会
 
 序列化,可以有三种方法:
 1.实现了Serializable接口
-	ObjectOutputStream采用默认的序列化方式，对对象的非transient的  实例变量  进行序列化
-	ObjcetInputStream采用默认的反序列化方式，对对对象的非transient的  实例变量 进行反序列化
+	ObjectOutputStream采用默认的序列化方式,对对象的非transient的  实例变量  进行序列化
+	ObjcetInputStream采用默认的反序列化方式,对对对象的非transient的  实例变量 进行反序列化
 2.仅仅实现Serializable接口,并且还定义了readObject(ObjectInputStream in)和writeObject(ObjectOutputSteam out)
 	ObjectOutputStream调用对象的writeObject(ObjectOutputStream out)的方法进行序列化
 	ObjectInputStream会调用对象的readObject(ObjectInputStream in)的方法进行反序列化

@@ -62,7 +62,7 @@ public class ServerSocketChannelTest {
                     readDataFromSocket(key);
                 }
 
-                //Selector不会自己从已选择键集中移除SelectionKey实例 必须在处理完通道时自己移除。下次该通道变成就绪时，Selector会再次将其放入已选择键集中。
+                //Selector不会自己从已选择键集中移除SelectionKey实例 必须在处理完通道时自己移除。下次该通道变成就绪时,Selector会再次将其放入已选择键集中。
                 ite.remove();
             }
 

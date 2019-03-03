@@ -23,7 +23,7 @@ public class TestTreeMap {
         map.put(person3.getId_card(), person3);
 
         // HashMap
-        System.out.println("HashMap，无序：");
+        System.out.println("HashMap,无序：");
         for (Iterator<Number> it = map.keySet().iterator(); it.hasNext();) {
             Person person = map.get(it.next());
             System.out.println(person.getId_card() + " " + person.getName());
@@ -32,7 +32,7 @@ public class TestTreeMap {
         System.out.println("---------------");
 
         // TreeMap
-        System.out.println("TreeMap，升序：");
+        System.out.println("TreeMap,升序：");
         TreeMap<Number, Person> treeMap = new TreeMap<>();
         treeMap.putAll(map);
         for (Iterator<Number> it = treeMap.keySet().iterator(); it.hasNext();) {
@@ -42,7 +42,7 @@ public class TestTreeMap {
 
         System.out.println("---------------");
 
-        System.out.println("TreeMap，降序：");
+        System.out.println("TreeMap,降序：");
         TreeMap<Number, Person> treeMap2 =
                 new TreeMap<>(Collections.reverseOrder());
         treeMap2.putAll(map);

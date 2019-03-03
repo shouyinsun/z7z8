@@ -65,7 +65,7 @@ public class LRUCache {
         }  
         node.value = value;  
         node.key = key;  
-        //将最新使用的节点放到链表头，表示最新使用的.  
+        //将最新使用的节点放到链表头,表示最新使用的.
         moveToHead(node);  
         nodes.put(key, node);  
     }  
@@ -113,7 +113,7 @@ public class LRUCache {
     }  
     
     /** 
-     * 移动到链表头，表示这个节点是最新使用过的 
+     * 移动到链表头,表示这个节点是最新使用过的
      * @param node 
      */  
     private void moveToHead(CacheNode node) {  

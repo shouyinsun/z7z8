@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @description 
  * 一个没有实现Serializable接口的父类,编写一个能够序列化的子类
  *  1. 父类要有一个无参的constructor
- *  2. 子类要先序列化自身，然后子类要负责序列化父类的域 
+ *  2. 子类要先序列化自身,然后子类要负责序列化父类的域
  */
 public class SubC extends SuperC implements Serializable {
 

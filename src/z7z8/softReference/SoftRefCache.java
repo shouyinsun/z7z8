@@ -11,10 +11,10 @@ import java.util.concurrent.ConcurrentHashMap;
  * @decription
  * 
  * 
- * 通过软引用占有的对象，JVM会将其标记为软可达
- * 在JVM发生垃圾回收时，会对软可达的对象区别对待
- * 只要当JVM即将发生内存溢出时，才会将软可达的对象回收
- * 软引用可以配合引用队列进行使用，当软引用占有的对象被回收后，JVM会将该软引用对象放入引用队列中
+ * 通过软引用占有的对象,JVM会将其标记为软可达
+ * 在JVM发生垃圾回收时,会对软可达的对象区别对待
+ * 只要当JVM即将发生内存溢出时,才会将软可达的对象回收
+ * 软引用可以配合引用队列进行使用,当软引用占有的对象被回收后,JVM会将该软引用对象放入引用队列中
  */
 public class SoftRefCache<K, V> implements Cache<K, V> {
 
@@ -62,7 +62,7 @@ public class SoftRefCache<K, V> implements Cache<K, V> {
 	}
 
 	/**
-	 * 从软引用队列中移除无效引用， 同时从cache中删除无效缓存
+	 * 从软引用队列中移除无效引用, 同时从cache中删除无效缓存
 	 */
 	protected void clearRefQueue() {
 		ExtraInfoReference<V> refValue = null;

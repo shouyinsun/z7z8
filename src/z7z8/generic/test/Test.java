@@ -38,13 +38,13 @@ public class Test {
 	
 	//Class 类 参数 Class<?> 直接Class亦可
 	public <T> Class<?> getClassAndList(Class<?> a) {
-        //Class<T>前面缺少<T>必须定义，否则将出现编译错误
-        //T改成其他字母都可以，但一定要声明
+        //Class<T>前面缺少<T>必须定义,否则将出现编译错误
+        //T改成其他字母都可以,但一定要声明
         // 返回类型和参数中的类型：Class<T>和Class<?>都可以。因为返回的a的类型为Class<T>,Class<?>可以通配
-        //当两个都是Class<?>，参数中的?自动通配成T
+        //当两个都是Class<?>,参数中的?自动通配成T
         System.out.println(a.getName());
-        System.out.println(a.getClass().getName());//传入的a是一个类，Class类型
-        //参数里面的Class<T>最大的好处是如果方法里面定义了泛型，可以自动获取类型值，比如如下的List<T>可以自动获取到a的类型
+        System.out.println(a.getClass().getName());//传入的a是一个类,Class类型
+        //参数里面的Class<T>最大的好处是如果方法里面定义了泛型,可以自动获取类型值,比如如下的List<T>可以自动获取到a的类型
         List<?> aa = new ArrayList<T>();
         System.out.println(aa);
         return a;
