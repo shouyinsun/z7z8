@@ -12,7 +12,7 @@ public class TestMap {
 	  
 	   public static void init(Map map){
 	      if (map != null){
-	         String key = null;
+	         String key ;
 	         for (int i=5; i>0; i--){
 	            key = new Integer(i).toString() + ".0";
 	            map.put(key, key.toString());

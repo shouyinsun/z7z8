@@ -170,15 +170,15 @@ public class Sort {
             //从第一个非叶子结点从下至上,从右至左调整结构
             adjustHeap(sourceArr,i,sourceArr.length);
         }
-        //2.调整堆结构+交换堆顶元素与末尾元素
+        //2.交换首尾节点,尾节点为最大值
         for(int j=sourceArr.length-1;j>0;j--){
-            swap(sourceArr,0,j);//将堆顶元素与末尾元素进行交换
-            adjustHeap(sourceArr,0,j);//重新对堆进行调整
+            swap(sourceArr,0,j);//尾节点最大
+            adjustHeap(sourceArr,0,j);//除尾节点,从头节点(因为不满足) 重新堆调整
         }
     }
 
     /**
-     * 调整大顶堆（仅是调整过程,大顶堆已构建）
+     * 调整成大顶堆
      * @param arr
      * @param i
      * @param length

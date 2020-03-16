@@ -15,7 +15,7 @@ public class Lock implements ICache {
 	@Override
 	public Object getData(String key) {
 		rw.readLock().lock();// 在读前先上读锁
-		Object result = null;
+		Object result ;
 		try {
 			result = map.get(key);
 			if (result == null) {

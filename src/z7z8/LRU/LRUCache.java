@@ -4,7 +4,7 @@ import java.util.Hashtable;
 
 public class LRUCache {
     private int cacheSize;  
-    private Hashtable nodes;//缓存容器  
+    private Hashtable nodes;//缓存,直接缓存Node对象
     private int currentSize;  
     private CacheNode first;//链表头  
     private CacheNode last;//链表尾  

@@ -25,8 +25,6 @@ public class LeakyBucketRateLimiter {
             water++;
             return true;
         }
-
-
     }
 
     public static void main(String[] args) {
@@ -43,6 +41,5 @@ public class LeakyBucketRateLimiter {
             }).start();
         }
     }
-
 
 }
