@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Agent-Class: z7z8.byteCodeEnhance.attath.Agent
+Created-By: cash
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Boot-Class-Path: javassist-3.27.0-GA.jar
