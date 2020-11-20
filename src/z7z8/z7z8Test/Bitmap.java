@@ -66,6 +66,4 @@ public class Bitmap {
 	        }
 	        return new String(chs);        
 	 }
-	
-
 }
