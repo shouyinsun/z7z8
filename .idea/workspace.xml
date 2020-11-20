@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="96b01a6d-0f15-428a-8353-9ec45f5c270e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="96b01a6d-0f15-428a-8353-9ec45f5c270e" name="Default" comment="lib jar">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/LRU/LRULinkedHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/LRU/LRULinkedHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/concurrent/cache/Lock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/concurrent/cache/Lock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/mapTst/TestMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/mapTst/TestMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/serializable/lostSomeParams/jdk/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/serializable/lostSomeParams/jdk/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/serializable/lostSomeParams/subImplSeri/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/serializable/lostSomeParams/subImplSeri/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/serializable/lostSomeParams/supImplSeri/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/serializable/lostSomeParams/supImplSeri/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/TT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z7z8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/z7z8.iml" afterDir="false" />
     </list>
     <list id="3f84844b-5dc1-40fc-b513-e15b18373bc6" name="New changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,9 +49,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="z7z8" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -55,22 +59,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="93240de5-8368-4448-8b3e-923344feed6a" />
   <component name="ProjectId" id="1eAHtuZaokkkmY3KzrKOZ6MCAe5" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="driver&#9;PSI&#9;JAVA://java.sql.Driver" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_221/lib/tools.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -80,25 +90,20 @@
       <recent name="z7z8.leetcode.interview" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="E:\cash\github\z7z8\lib" />
       <recent name="E:\cash\github\z7z8\src\z7z8\interview" />
       <recent name="C:\xuchao\github\z7z8\src\z7z8\leetcode\interview" />
       <recent name="C:\xuchao\github\z7z8\lib" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Attach">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -213,7 +218,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -227,8 +232,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
       <Profilers>
@@ -242,20 +245,19 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
       <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
       <Profilers>
@@ -266,12 +268,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Attach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -288,13 +284,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="z7z8.byteCodeEnhance.asm.Generator" />
+    <configuration name="GuavaRateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z7z8.rateLimiter.GuavaRateLimiter" />
       <module name="z7z8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="z7z8.byteCodeEnhance.asm.*" />
+          <option name="PATTERN" value="z7z8.rateLimiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -302,13 +298,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="z7z8.sort.Sort" />
+    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z7z8.deadlock.Simple" />
       <module name="z7z8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="z7z8.sort.*" />
+          <option name="PATTERN" value="z7z8.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +313,12 @@
       </method>
     </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="z7z8.byteCodeEnhance.javassist.Test" />
+      <option name="MAIN_CLASS_NAME" value="z7z8.generic.test.Test" />
       <module name="z7z8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="z7z8.byteCodeEnhance.javassist.*" />
+          <option name="PATTERN" value="z7z8.generic.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,13 +326,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="z7z8.byteCodeEnhance.asm.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="z7z8.adapter.pattern1.Test" />
       <module name="z7z8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="z7z8.byteCodeEnhance.asm.*" />
+          <option name="PATTERN" value="z7z8.adapter.pattern1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,6 +378,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="false" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -423,19 +420,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Sort" />
-      <item itemvalue="Application.Generator" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Attach" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.GuavaRateLimiter" />
+      <item itemvalue="Application.Simple" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Attach" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Generator" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.Simple" />
+        <item itemvalue="Application.GuavaRateLimiter" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Attach" />
       </list>
     </recent_temporary>
   </component>
@@ -444,6 +441,7 @@
       <projects_view />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -482,6 +480,7 @@
       <workItem from="1584239973919" duration="13885000" />
       <workItem from="1593757696081" duration="7435000" />
       <workItem from="1593765954038" duration="5090000" />
+      <workItem from="1605856477507" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="countDown，threadpool submit all task then execute single task">
       <created>1555516922708</created>
@@ -494,20 +493,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -519,7 +517,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="countDown，threadpool submit all task then execute single task" />
-    <option name="LAST_COMMIT_MESSAGE" value="countDown，threadpool submit all task then execute single task" />
+    <MESSAGE value="lib jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="lib jar" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1605866077063">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605866077063" />
+    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1605866077061">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605866077061" />
+    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1605866077061">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605866077061" />
+    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1605866077062">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605866077062" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1605866056831">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="221" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1605866056831" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
