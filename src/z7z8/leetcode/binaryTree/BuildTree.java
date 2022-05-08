@@ -1,8 +1,8 @@
 package z7z8.leetcode.binaryTree;
 
-import com.google.common.collect.Maps;
-
 import java.util.Map;
+
+import com.google.common.collect.Maps;
 
 /**
  * author cash 通过中序跟前序构建二叉树(没有重复值)
@@ -47,7 +47,7 @@ public class BuildTree {
         //无重复值,data 跟 index 映射
         bt.setInOrderIndexMap(map);
         Node n=bt.build(preOder,0,preOder.length-1,inOder,0,inOder.length-1);
-        System.out.println(n.data);
+        System.out.println(n.val);
 
     }
 }

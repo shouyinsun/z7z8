@@ -8,30 +8,36 @@ import java.util.Map;
 import java.util.Queue;
 
 /**
- * 0,0,1,1
- * 1,0,2,2
- * 2,0,3,1
- * 3,2,1,3
- * 4,3,1,1
- * 5,2,3,1
- * 6,3,2,1
+ * 0,1,1
+ * 0,2,2
+ * 0,3,1
+ * 2,1,3
+ * 3,1,1
+ * 2,3,1
+ * 3,2,1
+ *
+ * 线路问题
  */
 
 public class DirectedGraph {
 
     private class Vertex{
         private String vertexLabel;// 顶点标识
-        private List<Edge> adjEdges;
+
+        private List<Edge> edges;
         private int inDegree;// 该顶点的入度
 
         public Vertex(String verTtexLabel) {
             this.vertexLabel = verTtexLabel;
+            //入度
             inDegree = 0;
-            adjEdges = new LinkedList<Edge>();
+            //出度的边
+            edges = new LinkedList<Edge>();
         }
     }
 
     private class Edge {
+        //边结束的点
         private Vertex endVertex;
         // private double weight;
         public Edge(Vertex endVertex) {
@@ -67,7 +73,7 @@ public class DirectedGraph {
             }
 
             e = new Edge(endNode);//每读入一行代表一条边
-            startNode.adjEdges.add(e);//每读入一行数据,起始顶点添加一条边
+            startNode.edges.add(e);//每读入一行数据,起始顶点添加一条边
             endNode.inDegree++;//每读入一行数据,终止顶点入度加1
         }
     }
@@ -86,7 +92,7 @@ public class DirectedGraph {
             Vertex v = queue.poll();
             System.out.print(v.vertexLabel + " ");
             count++;
-            for (Edge e : v.adjEdges)
+            for (Edge e : v.edges)
                 if(--e.endVertex.inDegree == 0)
                     queue.offer(e.endVertex);
         }

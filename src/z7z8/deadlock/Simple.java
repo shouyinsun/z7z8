@@ -1,5 +1,9 @@
 package z7z8.deadlock;
 
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+
 /**
  * 简单的deadlock
  * author cash
@@ -7,15 +11,23 @@ package z7z8.deadlock;
  **/
 public class Simple {
     public static void main(String[] args) {
-        LeftRightDeadlock leftRightDeadlock=new LeftRightDeadlock();
+        LeftRightDeadlock leftRightDeadlock = new LeftRightDeadlock();
 
         new Thread(() ->
             leftRightDeadlock.leftRight()
         ).start();
 
         new Thread(() ->
-                leftRightDeadlock.rightLeft()
+            leftRightDeadlock.rightLeft()
         ).start();
+
+        ThreadPoolExecutor pool =new ThreadPoolExecutor(4,10,1000, TimeUnit.SECONDS,new ArrayBlockingQueue<>(100));
+        pool.submit(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        });
 
     }
 }

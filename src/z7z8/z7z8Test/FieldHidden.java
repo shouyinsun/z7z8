@@ -33,7 +33,8 @@ class Super {
 class Sub extends Super {   
     String s = "Sub";   
 
-    String say(){   
+    @Override
+    String say(){
         return "hello Sub";   
     }   
 }

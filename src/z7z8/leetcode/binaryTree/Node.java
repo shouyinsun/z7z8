@@ -6,12 +6,12 @@ package z7z8.leetcode.binaryTree;
  **/
 public class Node {
 
-    public int data;
+    public int val;
     public Node left;
     public Node right;
 
-    public Node(int data) {
-        this.data = data;
+    public Node(int val) {
+        this.val = val;
     }
 
 

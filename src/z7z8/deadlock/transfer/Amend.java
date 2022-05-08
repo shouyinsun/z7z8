@@ -12,8 +12,8 @@ public class Amend {
     private static final Object tieLock = new Object();
 
     public static void main(String[] args) {
-        Account a=new Account();
-        Account b=new Account();
+        Account a = new Account();
+        Account b = new Account();
         //两个账户同时互相转钱,锁定账户,就可能死锁
         new Thread(() -> {
             try {
@@ -35,15 +35,13 @@ public class Amend {
     }
 
     public static void transferMoney(final Account fromAcct,
-                              final Account toAcct,
-                              final double amount)
-            throws Exception {
+        final Account toAcct,
+        final double amount)
+        throws Exception {
 
         class Helper {
             public void transfer() throws Exception {
-                if (fromAcct.getBalance()-amount < 0)
-                    throw new RuntimeException();
-                else {
+                if (fromAcct.getBalance() - amount < 0) {throw new RuntimeException();} else {
                     System.out.println("done");
                     fromAcct.debit(amount);
                     toAcct.credit(amount);

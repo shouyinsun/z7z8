@@ -18,7 +18,8 @@ import java.util.*;
  * T1->T2,T2->T3,T3->T1 输出：Error, circular dependencies
  * K1，K2 输出：Error,invalid input
  **/
-public class DirectedGraphTest {
+public class
+DirectedGraphTest {
     public static void main(String[] args) {
         DirectedGraphTest t = new DirectedGraphTest();
         String s = t.caculateDependency("T1->T2,T2->T3,T3->T1");

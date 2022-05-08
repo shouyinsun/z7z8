@@ -1,8 +1,8 @@
 package z7z8.z7z8Test;
 
 public class Either<A, B> {
-	private A left = null;
-	private B right = null;
+	private A left ;
+	private B right ;
 
 	private Either(A a, B b) {
 		left = a;
@@ -33,10 +33,4 @@ public class Either<A, B> {
 		return new Either<A, B>(null, b);
 	}
 
-	/*public void fold(F<A> leftOption, F<B> rightOption) {
-		if (right == null)
-			leftOption.f(left);
-		else
-			rightOption.f(right);
-	}*/
 }
