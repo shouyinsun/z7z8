@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
+
 public class Solution {
 
     public List<List<Integer>> subsets(int[] nums) {
@@ -21,7 +22,8 @@ public class Solution {
     }
 
     private void lookup(List<List<Integer>> resultList, List<Integer> result, int startIndex,
-        int[] nums, boolean[] checked) {
+                        int[] nums, boolean[] checked) {
+
         for (int i = startIndex; i < nums.length; i++) {
             if (!checked[i]) {
                 result.add(nums[i]);
@@ -36,12 +38,12 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.subsets(new int[] {1, 2, 3}));
-        Queue<Integer> queue  =new LinkedList();
+        System.out.println(solution.subsets(new int[]{1, 2, 3}));
+        Queue<Integer> queue = new LinkedList();
         queue.add(1);
-        if(!queue.isEmpty()){
+        if (!queue.isEmpty()) {
             int size = queue.size();
-            for(int i=0;i<size;i++){
+            for (int i = 0; i < size; i++) {
                 queue.poll();
             }
         }

@@ -20,40 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b01a6d-0f15-428a-8353-9ec45f5c270e" name="Default" comment="lib jar">
-      <change afterPath="$PROJECT_DIR$/src/z7z8/z7z8Test/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/concurrent/rwLock/ReentrantR2WLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/concurrent/rwLock/ReentrantR2WLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/concurrent/rwLock/ReentrantRWLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/concurrent/rwLock/ReentrantRWLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/BitsetSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/Either.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/z7z8Test/Either.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/MathTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/StudentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/Sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/z7z8/z7z8Test/Sub.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/Test3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/z7z8/z7z8Test/Test4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/concurrent/rwLock/ReentrantR2WLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/concurrent/rwLock/ReentrantR2WLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/concurrent/rwLock/ReentrantRWLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/concurrent/rwLock/ReentrantRWLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/deadlock/Simple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/deadlock/Simple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/deadlock/transfer/Amend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/deadlock/transfer/Amend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/interview/PrintNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/interview/printXYZ/PrintABC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/leetcode/binaryTree/BuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/leetcode/binaryTree/BuildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/leetcode/binaryTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/leetcode/binaryTree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/leetcode/directedGraph/DirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/leetcode/directedGraph/DirectedGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/leetcode/directedGraph/DirectedGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/leetcode/directedGraph/DirectedGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/rateLimiter/RollingWindowRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/rateLimiter/RollingWindowRateLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/BitsetSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/Either.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/z7z8Test/Either.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/FieldHidden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/z7z8Test/FieldHidden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/MathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/z7z8Test/Solution2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/StudentDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/Test3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/Test4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/z7z8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/z7z8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/z7z8/z7z8Test/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/z7z8/z7z8Test/Solution.java" afterDir="false" />
     </list>
     <list id="3f84844b-5dc1-40fc-b513-e15b18373bc6" name="New changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +96,7 @@
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -151,41 +122,19 @@
       <recent name="test" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.PrintABCUsingCondition">
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -300,14 +249,12 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="true" type="AndroidRunConfigurationType">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="false" />
-      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -316,45 +263,46 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+    <configuration default="true" type="AndroidTestRunConfigurationType">
       <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
-      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -416,6 +364,34 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -485,7 +461,7 @@
       <projects_view />
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -545,6 +521,8 @@
       <workItem from="1649392800268" duration="12670000" />
       <workItem from="1649731828912" duration="28708000" />
       <workItem from="1650702220931" duration="13735000" />
+      <workItem from="1652419684834" duration="629000" />
+      <workItem from="1652536779307" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="countDown，threadpool submit all task then execute single task">
       <created>1555516922708</created>
@@ -564,14 +542,16 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -635,7 +615,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/z7z8/z7z8Test/Solution.java</url>
-          <line>24</line>
+          <line>26</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
